@@ -43,6 +43,18 @@
                             </li>
 
                             <li class="nav-item">
+                                <a class="nav-link text-white" href="{{ route('admin.posts.index') }}">
+                                    <i class="fa-solid fa-list-alt fa-lg fa-fw"></i> List animals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{ route('admin.posts.create') }}">
+                                    <i class="fa-solid fa-plus fa-lg fa-fw fa-beat"></i> Add / Create 
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="nav-link text-white" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     <i class="fa-solid fa-sign-out-alt fa-lg fa-fw"></i> {{ __('Logout') }}
                                 </a>
